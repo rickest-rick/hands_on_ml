@@ -257,8 +257,14 @@ TSWLatexianTemp*
 # directories
 env/
 
-# trained models
+# trained models and callbacks
+my_logs/
 *.joblib
+*.h5
+*.ckpt*
+model.png
+*checkpoint*
+
 
 # misc
 *.directory
